@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    background-image: linear-gradient(to left, #f3f5f7 0%, #e2ebf0 100%);
+}
+.nav-link{
+    text-decoration: none !important;
+    color: rgb(36, 35, 35) !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    color: rgb(138, 138, 132) !important;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#navigation{
+    background-color: #DBF2FB !important;
+}
+.text-white{
+    /* background-image: linear-gradient(to left bottom, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    width: 75%;
+    justify-content: center;
+}
+img{
+    width: 100%;
+    height: 350px;
+}
+#contenus{
+    width: 100%;
+    /* height: 350px; */
+    display: block;
+    border-radius: 5px !important;
+}
+.carousel-inner{
+    align-items: center !important;
+}
+.modal-body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+/* Modal */
+.modal-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modePayement{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.Cart{
+    padding: 5px;
+    cursor: pointer;
+    font-size: larger;
+}
+/* form */
+.reserver{
+    display: flex;
+    justify-content: space-around;
+}
+.modal-body{
+    min-width: 350px;
+    max-width: 600px;
+}
+
+
+#orangeMoney{
+    width: 40px;
+    height: 10px;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: auto;
+}
+.image{
+    width: 50px !important;
+    height: 20px !important;
+    margin-top: 6px;
+}
+.footer{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 30, 30);
+    align-content: space-between;
+    }
+.footerLeft{
+    padding: 5px;
+    margin-right: auto;
+}
+.footerRight{
+    margin-right: auto;
+}
